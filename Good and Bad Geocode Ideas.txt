@@ -1,6 +1,8 @@
 #' Need to get elevation of every house and construction site from alitude
 #' Don't need it for industrial data as we can assume 10 m.  You can calculate
 #' the distances at each internval of the altitude I assume?
+#' When I get it down then we will use the elevation with our model or equations
+#' you gusy are hopefully coding in python.
 
 
 #### 1) HOw we are fixing elevation:
@@ -28,8 +30,6 @@
 #
 
 
-#then we will use the elevation with our model or equations you gusy are hopefully
-#coding in python.
 
 #### 1) Fun but not useful ideas to fix elevation: -----
 ## Try to find the original file
