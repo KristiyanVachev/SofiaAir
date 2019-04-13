@@ -31,7 +31,7 @@
 
 
 
-#### 1) Fun but not useful ideas to fix elevation: -----
+#### 2) Fun but not useful ideas to fix elevation: -----
 ## Try to find the original file
 ## http://rfunctions.blogspot.com/2014/12/how-to-create-grid-and-intersect-it.html 
 
