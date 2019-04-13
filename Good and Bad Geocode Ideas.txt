@@ -1,0 +1,50 @@
+#' Need to get elevation of every house and construction site from alitude
+#' Don't need it for industrial data as we can assume 10 m.  You can calculate
+#' the distances at each internval of the altitude I assume?
+
+
+#### 1) HOw we are fixing elevation:
+#1 ) Get a polygon map of the data instead of point or grid.
+
+
+#2 ) Do an very advanced type of join of latitude to latitude
+#### 2) Doing a geospatial join to get elevation data:
+# https://gis.stackexchange.com/questions/71250/intersection-between-points-and-polygons-in-qgis
+# https://gis.stackexchange.com/questions/63577/joining-polygons-in-r
+# https://www.qgistutorials.com/en/docs/points_in_polygon.html
+# 
+# https://gis.stackexchange.com/questions/251501/intersect-polygons
+#4 ) Get new elevation for every house and construction site and industry
+#5 ) Substract the elevation from either the minimum of the polygon file (min elevation)
+#6 ) This gives us a height of every thing in Sofia, Bulgaria \o/ \o/
+
+
+
+
+#7 ) I give the results at .csv or .shap files
+# http://geospatialtraining.com/tutorial-creating-a-pandas-dataframe-from-a-shapefile/
+# http://geopandas.org/io.html
+# Or google search pandas from shape
+#
+
+
+#then we will use the elevation with our model or equations you gusy are hopefully
+#coding in python.
+
+#### 1) Fun but not useful ideas to fix elevation: -----
+## Try to find the original file
+## http://rfunctions.blogspot.com/2014/12/how-to-create-grid-and-intersect-it.html 
+
+
+
+
+#### 3) Factor Analysis Gaussian Disperation Model links:
+#' I am not sure if we are solving for a regression or if we are actually just pluging
+#' values.  I have not be able to make factors but here is what I was able to 
+#' research in prepeartion s to ask the mentors for help.
+# https://blog.dominodatalab.com/fitting-gaussian-process-models-python/
+# https://www.statsmodels.org/devel/generated/statsmodels.genmod.generalized_linear_model.GLM.html
+# https://scikit-learn.org/stable/modules/gaussian_process.html
+# https://gis.stackexchange.com/questions/7667/gaussian-plume-model
+
+
