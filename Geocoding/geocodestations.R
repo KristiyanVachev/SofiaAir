@@ -1,3 +1,7 @@
+#' R data cleaning script for group
+#' This is the R file we used.
+#' First geocode the data
+
 library(tidyverse) #install this its GREAAAT 
 stations_data_train <- read_csv("data/stations_data_train.csv")
 
@@ -20,5 +24,6 @@ stations_data_train$Long_BG0050A <- 42.680558
 stations_data_train$Long_BG0052A <- 42.666508
 stations_data_train$Long_BG0073A <- 42.669797
 write_csv(stations_data_train,"data/new_stations_data_train.csv")
-# View(stations_data_train)
 
+#' Now lets 
+#' 
