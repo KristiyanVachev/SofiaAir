@@ -1,0 +1,55 @@
+---
+title: "documentation"
+author: "Michael Lane"
+date: "April 13, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+
+```{r cars}
+summary(cars)
+print("hello world")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## My documentation: Geocoding for Level 3 Pollutants
+#' The level 3 pollutants were geocoding using the Google Maps API however, using google 
+#' Sheets extension known as.... (link:).  It is a free alternative to having to 
+#' .05 cents every time you want to have to geocode a file.  Since I would have to 
+#' explain the geocoding process to people not familar with GIS, I thought it might
+#' 
+
+#' The geocoding is very simple and userfriendly, though it can take a bit for the 
+#' the plugin to load.  Also it should only be used for nonprofit, educational,
+#' or hackathon purposes as it allow allows you to query 10,000 address per day.
+#' You first need the address line (so the address, provence, state, country)
+#' either in multiple columns or one column.  You then check at least one address
+#' in a google search to make sure it looks valid.  Then you check two more to
+#' make sure you have enough information.  By doing this you can figure out small
+#' errors in the possible search that the google API will make even before you code
+#' or run the API request.  Because if google maps cannot figure it out then neither
+#' can any of google's services.  
+
+#' Generally the clean up worked like this:
+#' 1) Filter and clean the streets by replacing the word "street""
+#' 2) 
+#' 3)
+#' 4)
+
+
