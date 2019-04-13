@@ -11,6 +11,7 @@
 
 #2 ) Do an very advanced type of join of latitude to latitude
 #### 2) Doing a geospatial join to get elevation data:
+# https://www.qgistutorials.com/en/docs/performing_spatial_joins.html
 # https://gis.stackexchange.com/questions/71250/intersection-between-points-and-polygons-in-qgis
 # https://gis.stackexchange.com/questions/63577/joining-polygons-in-r
 # https://www.qgistutorials.com/en/docs/points_in_polygon.html
