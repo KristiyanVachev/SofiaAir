@@ -25,5 +25,15 @@ stations_data_train$Long_BG0052A <- 42.666508
 stations_data_train$Long_BG0073A <- 42.669797
 write_csv(stations_data_train,"data/new_stations_data_train.csv")
 
-#' Now lets 
+#' Now lets load data and clean up some things...
+construction_sites <- read_csv("Geocoding/construction_sites_geocoded_file.csv")
+household_heating <- read_csv("data/household_heating.csv")
+industrial_pollution <- read_csv("data/industrial_pollution.csv")
 #' 
+#' 
+join_industrial <- read_csv("data/industrial_pollution.csv")
+join_construction <- read_csv("data/construction_sites.csv")
+join_household_heating <- read_csv("houshold_heating_joined.csv")
+                          
+
+
